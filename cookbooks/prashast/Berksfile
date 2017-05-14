@@ -1,0 +1,5 @@
+source "https://supermarket.chef.io/cookbooks"
+
+cookbook 'java', '= 1.47.0'
+
+metadata
