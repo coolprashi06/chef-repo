@@ -1,0 +1,19 @@
+{
+    "name" : "prod",
+    "description" : "prod environment",
+    "json_class" : "Chef::Environment",
+    "chef_type" : "environment",
+    "default_attribites" : {
+        
+    
+    },
+    "override_attributes" : {
+        "chef_client" : {
+            "interval" : "900"
+        },
+        "prashast" : {
+            "servername" : "prashast.prod.com",
+            "vault_truststore_item_name" : "prod_truststore"
+        }
+    }
+}

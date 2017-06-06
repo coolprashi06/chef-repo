@@ -1,14 +1,6 @@
-name "java"
-description "Install oracle java"
-run_list "recipe[java],recipe[prashast]"
+name "prashast"
+description "Sample chef repo created by Prashast"
 override_attributes(
-    "java" => {
-            "install_flavor" => "oracle"
-})
-default_attributes(
-  "java" => {
-     "oracle" => {
-       "accept_oracle_download_terms" => true
-     }
-   }
 )
+default_attributes(
+  )

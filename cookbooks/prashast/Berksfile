@@ -1,5 +1,19 @@
 source "https://supermarket.chef.io/cookbooks"
-
-cookbook 'java', '= 1.47.0'
-
 metadata
+
+cookbook 'cron', '~> 4.1.1', path: '../../thirdparty_cookbooks/cron'
+cookbook 'apt', '~> 6.1.0', path: '../../thirdparty_cookbooks/apt'
+cookbook 'build-essential', '~> 8.0.2', path: '../../thirdparty_cookbooks/build-essential'
+cookbook 'mingw', '~> 2.0.1', path: '../../thirdparty_cookbooks/mingw'
+cookbook 'seven_zip', '~> 2.0.2', path: '../../thirdparty_cookbooks/seven_zip'
+cookbook 'ark', '~> 3.1.0', path: '../../thirdparty_cookbooks/ark'
+cookbook 'homebrew', '~> 4.1.0', path: '../../thirdparty_cookbooks/homebrew'
+cookbook 'ohai', '~> 5.1.0', path: '../../thirdparty_cookbooks/ohai'
+cookbook 'windows', '~> 3.0.5', path: '../../thirdparty_cookbooks/windows'
+cookbook 'compat_resource', '~> 12.19.0', path: '../../thirdparty_cookbooks/compat_resource'
+cookbook 'logrotate', '~> 2.1.0', path: '../../thirdparty_cookbooks/logrotate'
+cookbook 'java', '~> 1.50.0', path: '../../thirdparty_cookbooks/java'
+cookbook 'maven', '~> 5.0.1', path: '../../thirdparty_cookbooks/maven'
+#cookbook 'ntp', '~> 1.5.4'
+cookbook 'chef-client', '~> 8.1.1', path: '../../thirdparty_cookbooks/chef-client'
+#cookbook 'hostsfile' , '>=2.4.5'
